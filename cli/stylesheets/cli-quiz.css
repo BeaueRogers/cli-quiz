@@ -1,31 +1,26 @@
-
+p {
+  display: block;
+}
 
 body {
   background-color: teal;
   font: Arial;
   width: 65%;
   display: block;
-  float: left;
-}
-.poem {
-  display: block;
-}
-.sonnet {
-  font: Tahoma;
-  display: block;
 }
 .sidebar {
-  display: block;
   width: 30%;
+  display: block;
   margin-left: 110%;
-  border: 1px solid red;
 }
 
-
+.sonnet {
+  font: Tahoma;
 }
 .fav {
-  text-decoration: red;
+  text-transform: red;
 }
+
 
 
 /*

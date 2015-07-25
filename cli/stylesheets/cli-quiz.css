@@ -1,27 +1,28 @@
+.fav {
+  background-color: red;
+  margin-right: 69%;
+}
+.sonnet {
+  font-family: Tahoma;
+}
+body {
+  font-family: Arial;
+  width: 65%;
+  display: block;
+  border: 1px solid red;
+  background-color: teal;
+}
 p {
   display: block;
 }
-
-body {
-  background-color: teal;
-  font: Arial;
-  width: 65%;
-  display: block;
-}
-.sidebar {
+nav {
   width: 30%;
-  display: block;
   margin-left: 110%;
+  border: 1px solid red;
 }
 
-.sonnet {
-  font: Tahoma;
-}
-.fav {
-  text-transform: red;
-}
-
-
+/* notes: first poem is not a sonnet, no need to highlight
+it or change it from Arial font */
 
 /*
 1. Open the quiz.css file in Sublime text.
@@ -32,4 +33,3 @@ body {
   6. The right sidebar should take up 30% width.
   7. Commit the file to git and push it to Github.
 */
-
